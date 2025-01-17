@@ -1,0 +1,24 @@
+.circle
+{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.square
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(70,170,200,.5);
+    cursor: pointer;
+    border: solid 10px black;
+    margin: 50px;
+    box-shadow: 0 0 10px 3px rgba(0,0,0, .3);
+}
+
+body
+{
+    background-color: darkgray;
+}
