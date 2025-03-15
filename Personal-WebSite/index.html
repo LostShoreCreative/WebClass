@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link type="text/css" rel="stylesheet" href="styles/indexStyle.css">
+    <script defer src="scripts/email.js"></script>
 </head>
 <body>
     <header>
@@ -16,10 +17,12 @@
     </header>
 
     <footer>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <form class="emailer">
+            <input type="email"  class="input" placeholder="Your Email" id="email" >
+            <input type="text" class="input" placeholder="Subject" id="subject">
+            <textarea name="email-body" class="input" id="text" placeholder="Body"></textarea>
+            <button type="submit" class="input" id="submit">Send</button>
+        </form>
     </footer>
 </body>
 </html>
