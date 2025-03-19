@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link type="text/css" rel="stylesheet" href="styles/indexStyle.css">
+    <link rel="stylesheet" href="styles/footerStyle.css">
     <script defer src="scripts/email.js"></script>
     <link rel="icon" type="imgage/png"href="media/logo.png">
 </head>
@@ -32,17 +33,18 @@
 
     <footer>
         <div id="icon-list">
-            <a href="https://www.youtube.com/@LostShoreCreative" class="icon">
-                <img src="media/icons/youtubeIcon.png" alt="Youtube Logo">
+            <a href="https://www.youtube.com/@LostShoreCreative" id="youtube">
+                <img src="media/icons/youtubeIcon.png" alt="Youtube Logo" class="icon">
             </a>
-            <a href="https://github.com/LostShoreCreative" class="icon">
-                <img src="media/icons/githubIcon.png" alt="GitHub Logo">
+            <a href="https://github.com/LostShoreCreative" id="github">
+                <img src="media/icons/githubIcon.png" alt="GitHub Logo" class="icon">
             </a>
-            <a href="https://www.instagram.com/lostshorecreative_/" class="icon">
-                <img src="media/icons/instagramIcon.png" alt="Instagram Logo">
+            <a href="https://www.instagram.com/lostshorecreative_/" id="instagram">
+                <img src="media/icons/instagramIcon.png" alt="Instagram Logo" class="icon">
             </a>
         </div>
         <form class="emailer">
+            <h2>Contact</h2>
             <input type="email"  class="input" placeholder="Your Email" id="email" >
             <input type="text" class="input" placeholder="Subject" id="subject">
             <textarea name="email-body" class="input" id="text" placeholder="Body"></textarea>

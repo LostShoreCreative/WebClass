@@ -2,39 +2,3 @@ body
 {
     display: grid;
 }
-
-footer
-{
-    display: grid;
-}
-
-textarea
-{
-    resize: none;
-}
-
-.emailer
-{
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.input
-{
-    padding: 3px;
-    width: 350px;
-    margin: 0 auto;
-}
-
-#text
-{
-    word-wrap: normal;
-    height: 200px;
-}
-
-#submit
-{
-    width: 100px;
-}
