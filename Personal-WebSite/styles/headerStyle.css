@@ -27,12 +27,12 @@ header
 
 h1
 {
-    padding-bottom: 10px;
     text-align: center;
     font-family: "Orbitron";
     background-color: var(--primary-color);
     grid-row: 1;
     grid-column: 2;
+    margin-bottom: 0;
 
 }
 

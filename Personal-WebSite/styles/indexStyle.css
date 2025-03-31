@@ -30,6 +30,7 @@ main
 
 #avatar
 {
+    margin-top: 70px;
     width: 500px;
     height: 500px;
     grid-row: 1 /3;
@@ -69,4 +70,30 @@ main
 .text
 {
     font-size: 20px;
+}
+
+.projects h2
+{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.thumb-nail
+{
+    height: 200px;
+    width: 200px;
+}
+
+.content-grid
+{
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: 3;
+}
+
+#world-buidling
+{
+    grid-column: 1;
+    grid-row: 1;
 }
