@@ -84,12 +84,25 @@ main
     width: 200px;
 }
 
+.thumb-nail:hover
+{
+    transition: ease-in .1s;
+    box-shadow: 5px 5px #052731;
+    transform: scale(1.1);
+}
+
+.projects
+{
+    align-items: center;
+}
+
 .content-grid
 {
-    justify-items: center;
+    margin: 0 auto;
+    width: 1000px;
     display: grid;
-    grid-template-columns: 5;
-    grid-template-rows: 3;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(4, 200px);;
 }
 
 #world-buidling
