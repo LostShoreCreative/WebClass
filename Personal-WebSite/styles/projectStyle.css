@@ -1,5 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+:root
+{
+    --primary-color: #169CAD;
+    --secondary-color:  #F5671D;
+    --accent1-color: #034357;
+}
+
 body
 {
-    display: grid;
     background-color: rgb(235, 225, 225);
+}
+
+.project
+{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 100 auto;
+    background-color: var(--accent1-color);
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.thumbnail
+{
+    scale: 75%;
+    justify-self: right;
+    grid-column: 1;
+}
+
+.project a
+{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.project a:hover
+{
+    text-decoration: underline;
+}
+
+a h2
+{
+    font-family: "Iceberg";
+    width: fit-content;
+}
+
+a h2:hover
+{
+    transition: ease-in .1s;
+    background-color: var(--secondary-color);
+    border-radius: 3px;
+}
+
+
+
+.project-card
+{
+    margin-top: 55px;
+    width: 500px;
+    height: 320px;
+    color: antiquewhite;
+    padding-left: 10px;
 }

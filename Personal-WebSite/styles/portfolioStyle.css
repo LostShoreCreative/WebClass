@@ -59,3 +59,28 @@ h3
     justify-items: center;
     margin-bottom: 50px;
 }
+
+.thumb-nail
+{
+    height: 200px;
+    width: 200px;
+}
+
+.thumb-nail:hover
+{
+    transition: ease-in .1s;
+    box-shadow: 5px 5px #052731;
+    transform: scale(1.1);
+}
+
+.projects
+{
+    align-items: center;
+}
+
+.content-grid
+{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(4, 200px);;
+}
