@@ -13,13 +13,19 @@ body
     background-color: rgb(235, 225, 225);
 }
 
+main
+{
+    background-color: #034357;
+    width: 1500px;
+    margin: 0 auto;
+}
+
 .project
 {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     margin: 100 auto;
-    background-color: var(--accent1-color);
     width: fit-content;
     height: fit-content;
     margin: 0 auto;
